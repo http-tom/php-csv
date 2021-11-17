@@ -1,0 +1,21 @@
+{
+    "name": "http-tom/php-csv",
+    "description": "PHP CSV helper utility",
+    "authors": [
+        {
+            "name": "Tom",
+            "role": "Developer"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HttpTom\\": "src/HttpTom/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
